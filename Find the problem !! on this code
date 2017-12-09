@@ -1,0 +1,30 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+main ()
+{
+ 
+int a ,b , c , d ,e;
+ 
+a= 10; a=5; a=6;
+ 
+b= 2 ,b= 3;
+ c=9;
+ 
+b = 4;  
+b = 5 ;
+d =1 ;
+cout << " give value for a " <<endl ;
+cin  >> a ;
+int sum = a+b ;
+ 
+int max = c+d;   cout << " give value for d " ; cin >> d;
+cout << "value of a "   << a <<endl <<b <<endl <<"the sum is "<<sum <<endl ;  
+cout << " Max power is " <<endl;
+ 
+cout << max <<endl;
+//there is different value of c
+cout << c ;
+return 0;
+}
