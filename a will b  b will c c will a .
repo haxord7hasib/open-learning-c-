@@ -1,0 +1,29 @@
+
+#include<stdio.h>
+int
+main ()
+{
+  double a, b, c, x;
+  printf ("Enter value a : ");
+  scanf ("%lf", &a);
+  printf ("Enter value  b: ");
+  scanf ("%lf", &b);
+  printf ("Enter value  c: ");
+  scanf ("%lf", &c);
+
+  x = a;
+  a = b;
+  b = c;
+  c = x;
+
+  
+
+
+
+  printf ("\n a = %lf\n", a);
+  printf (" b = %lf", b);
+  printf (" c = %lf", c);
+ 
+      
+  return 0;
+
