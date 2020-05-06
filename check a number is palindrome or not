@@ -1,0 +1,24 @@
+//check a number is palindrome or not
+#include<stdio.h>
+#include<string.h>
+int main()
+{char string[1000],temp,original[1000];
+int i,j;
+printf("enter a string");
+scanf("%s",string);
+strcpy(original,string); 
+i=0;
+j=strlen(string)-1;
+while(i<j)
+{
+temp=string[i];
+string[i]=string[j];
+string[j]=temp;
+i++;
+j--;
+}
+printf("reverse string is %s",string);
+
+
+return 0;
+}
